@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+    font-family: Serif, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+nav{
+    width: 100%;
+    background-color: #4682b4;
+    overflow: auto;
+}
+ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+}
+li{
+    float: left;
+}
+nav a{
+    float: left;
+    display:block;
+    padding: 15px 16px;
+    text-decoration: none;
+    color:#f2f2f2;
+    text-align: center;
+    font-size: 17px;
+}
+
+nav a:hover{
+    background-color: gray;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+* {
+box-sizing: border-box;
+}
+
+/* banner section */
+.banner-section img{
+    width:100%;
+}
+
+.centered h1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   color: #ffffff;
+   font-size:150px;
+}
+
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.button{
+    font-family: "Rubik",sans-serif;
+    float: left;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #ecaf60;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span::after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span{
+    padding-right: 25px;
+}
+
+.button:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+
+.button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+/*section for contact container */
+.contact-container h2{
+
+    padding-left:30px;
+    color: #000080;
+    weight:500;
+    font-size:30px;
+    text-transform:capitalize;
+}
+
+input[type=text],input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  font-size:18px;
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+    font-weight:700;
+    font-size:20px;
+    margin-left:30px;
+    margin-right:30px;
+    margin-bottom:30px;
+    border-radius: 5px;
+    background-color: #B0C4DE;
+    padding: 20px;
+}
+
+/* Create three equal columns that floats next to each other */
+footer .column {
+float: left;
+width: 25%;
+padding: 10px;
+height: 250px;
+/* Should be removed. Only for demonstration */
+}
+
+footer
+{
+    font-family: Serif, Helvetica, sans-serif;
+    clear: both;
+    background-color: #4682b4;
+    color: white;
+    padding: 0px;
+    margin: 0;
+    width: 100%;
+
+}
+footer h2{
+
+   margin-top: 5px;
+   padding-left: 15px;
+   font-size: 36px;
+   font-weight: 500;
+   line-height: 1.2;
+   text-align: justify;
+   display: block;
+   margin-bottom: 20px;
+
+}
+
+footer p{
+    padding-left: 15px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+footer a{
+
+padding-left: 15px;
+color: #ffffff;
+font-size: 16px;
+text-decoration: none;
+font-weight: 300;
+line-height: 1.6;
+}
+
+footer a:hover{
+    background-color: yellow;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
