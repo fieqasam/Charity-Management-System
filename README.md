@@ -1,4 +1,4 @@
-#Title:  Charity-Management-System
+# Charity-Management-System
 
 A repository for showcase project for subject BITM 2113 Web Application Development
 
